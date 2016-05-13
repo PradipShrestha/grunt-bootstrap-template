@@ -52,19 +52,19 @@ module.exports = function (grunt) {
             }
         },
 
+        karma: {
+            unit: {
+                configFile: 'karma.conf.js',
+                autoWatch: true
+            }
+        },
+
         watch: {
             scripts: {
                 files: [
                     '<%= appSetting.sassPath %>/**/*.scss'
                 ],
-                tasks: ['sass', 'postcss', 'cssmin']
-            }
-        },
-
-        karma: {
-            unit: {
-                configFile: 'karma.conf.js',
-                autoWatch: true
+                tasks: ['sass', 'postcss', 'cssmin' ,'karma']
             }
         }
     });
@@ -77,6 +77,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-karma');
 
     grunt.registerTask('watch', ['watch']);
-    grunt.registerTask('default', ['sass', 'postcss', 'cssmin']);
+    grunt.registerTask('default', ['sass', 'postcss', 'cssmin', 'karma']);
 };
 
