@@ -1,0 +1,45 @@
+{
+  "name": "grunt-bootstrap-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PradipShrestha/grunt-bootstrap-template.git"
+  },
+  "author": "Pradip Shrestha (CIsSharp)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PradipShrestha/grunt-bootstrap-template/issues"
+  },
+  "homepage": "https://github.com/PradipShrestha/grunt-bootstrap-template#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "bootstrap-sass": "^3.3.6",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-htmlmin": "^1.4.0",
+    "grunt-contrib-imagemin": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-karma": "^1.0.0",
+    "grunt-postcss": "^0.8.0",
+    "install": "^0.7.3",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "load-grunt-tasks": "^3.5.0",
+    "npm": "^3.8.9",
+    "phantomjs-prebuilt": "^2.1.7"
+  }
+}
